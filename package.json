@@ -1,0 +1,22 @@
+{
+  "name": "docspace-test-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^20.19.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "dotenv": "^17.2.3"
+  },
+  "dependencies": {
+  }
+}
