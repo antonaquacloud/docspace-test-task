@@ -2,7 +2,7 @@ import { test } from '../fixtures/auth'
 import { DocumentsPage } from '../src/pages/DocumentsPage'
 import { generateDocumentName, generateRoomName } from '../utils/dataGenerator';
 
-test('creating a room for docx', async ({ page, adminAuth }) => {
+test('creating a room for docx', async ({ page }) => {
   const fileName = generateDocumentName();
   const roomName = generateRoomName();
 
